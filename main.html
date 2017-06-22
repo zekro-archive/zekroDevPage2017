@@ -1,28 +1,40 @@
+<!-- DEV.ZEKRO.DE | MAIN PAGE REWORK 2017 | MAIN HTML WIDGET -->
+
+<!-- Blaack background for dimming background video -->
 <div style="z-index: 0; display: block; position: fixed; background-color: black; width: 100%; height: 100%; top: 0px; left: 0px; opacity: .8;">
 </div>
 
 <div style="z-index: 1; position: relative; display: block;">
     <center>
-        <audio class="audio_frame" src="https://dl.dropboxusercontent.com/s/6d7zful0f35e8kt/%E2%80%A0%E2%80%A0%E2%80%A0%20%28Crosses%29%20-%20Bitches%20Brew.mp3" controls="">
+        <!--
+          Autoplaying background audio file
+          TODO: adding "autoplay" tag to player
+        -->
+        <audio id="AUDIO_FRAME" class="audio_frame" src="https://dl.dropboxusercontent.com/s/6d7zful0f35e8kt/%E2%80%A0%E2%80%A0%E2%80%A0%20%28Crosses%29%20-%20Bitches%20Brew.mp3" controls="">
         </audio>
 
+        <!-- Audioplayer Track Title frame (defaultly hidden) -->
         <div class="audio_frame_text">
             Track: ††† (Crosses) - Bitches Brew
         </div>
 
-        <div style="display: block; width: 100px; height: 300px;">
+        <!-- SPACER & LOGO -->
+        <div id="SPACER" style="display: block; width: 100px; height: 300px;">
         </div>
         <a href="http://dev.zekro.de" target="_top"><img class="new_logo" src="https://dl.dropboxusercontent.com/s/n5ezu4k399uhfma/2017-mainlogo.png" width="300" alt="" /></a>
-        <div style="display: block; width: 100px; height: 500px;">
+        <div id="SPACER" style="display: block; width: 100px; height: 500px;">
         </div>
 
+        <!-- DIVIDING LINE -->
         <div style="display: block; width: 100%; height: 2px; background-color: white; opacity: 0.7;">
         </div>
 
+        <!-- HEADING -->
         <div>
           <p class="heading">MY PROJECTS</p>
         </div>
 
+        <!-- PROJEKT PANELS -->
         <div style="vertical-align:top;">
           <div id="projectpanel" style="margin-right: 50px;">
             <a class="projectbutton">GITHUB</a>
