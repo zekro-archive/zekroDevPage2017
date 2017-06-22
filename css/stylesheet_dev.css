@@ -1,0 +1,1114 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,400,300';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:100,300,400';
+
+#nav-icon {visibility:hidden;}
+#contentfooter {visibility:hidden;}
+.j-meta-links {visibility:hidden;}
+.j-admin-links {visibility:hidden;}
+
+a{
+	text-decoration: none;
+}
+
+/*
+nav {
+    display: none;
+    background-color: rgba(0,0,0,0);
+}
+*/
+
+img{
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.j-module a, .j-static-page a, .jtpl-footer a {
+    color: white;
+}
+
+
+.fade {
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+	-ms-user-select: none;
+	opacity: 0.75;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+
+.fade:hover {
+    opacity: 1;
+}
+
+
+@keyframes symb1 {
+    0%		{top: -40px; opacity: 0}
+    80%	{top: 0px; opacity: 0.75}
+}
+
+.fade_symb1 {
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	opacity: 0.75;
+	transition: opacity .25s ease-in-out;
+	position: relative;
+	animation-name: symb1;
+	animation-duration: 2s;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+
+.fade_symb1:hover {
+    opacity: 1;
+}
+
+
+@keyframes symb2 {
+    5%    	{top: -40px; opacity: 0}
+    85%     	{top: 0px; opacity: 0.75}
+}
+
+.fade_symb2 {
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	opacity: 0.75;
+	transition: opacity .25s ease-in-out;
+	position: relative;
+	animation-name: symb2;
+	animation-duration: 2s;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+.fade_symb2:hover {
+      opacity: 1;
+}
+
+
+@keyframes symb3 {
+    10% 	{top: -40px; opacity: 0}
+    90%     	{top: 0px; opacity: 0.75}
+}
+
+
+.fade_symb3 {
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	opacity: 0.75;
+	transition: opacity .25s ease-in-out;
+	position: relative;
+	animation-name: symb3;
+	animation-duration: 2s;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+
+.fade_symb3:hover {
+    opacity: 1;
+}
+
+
+@keyframes symb4 {
+        15%             {top: -40px; opacity: 0}
+        95%     {top: 0px; opacity: 0.75}
+}
+
+
+.fade_symb4 {
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	opacity: 0.75;
+	transition: opacity .25s ease-in-out;
+	position: relative;
+	animation-name: symb4;
+	animation-duration: 2s;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+
+.fade_symb4:hover {
+      opacity: 1;
+}
+
+
+@keyframes symb5 {
+        20%             {top: -40px; opacity: 0}
+        100%     {top: 0px; opacity: 0.75}
+}
+
+.fade_symb5 {
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	opacity: 0.75;
+	transition: opacity .25s ease-in-out;
+	position: relative;
+	animation-name: symb5;
+	animation-duration: 2s;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+
+.fade_symb5:hover {
+      opacity: 1;
+}
+
+
+@keyframes logo {
+    0%     	    {opacity: 0;}
+    30%      	{opacity: 0; transform: scale(1.1);}
+    100%    	{opacity: 0.7; transform: scale(1);}
+}
+
+.fade_logo {
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	width: 160px;
+	height: 75px;
+	opacity: 0.7;
+    transform: scale(1);
+/*	transition: width .15s ease-in-out, height .15s ease-in-out, opacity .15s ease-in-out;*/
+	animation-name: logo;
+	animation-duration: 2s;
+/*
+	-moz-transition: width .15s ease-in-out, height .15s ease-in-out, opacity .15s ease-in-out;
+	-webkit-transition: width .15s ease-in-out, height .15s ease-in-out, opacity .15s ease-in-out;
+*/
+    transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+}
+
+.fade_logo:hover {
+    width: 168px;
+    height: 79px;
+    opacity: 0.9;
+}
+
+
+@keyframes so1 {
+    0%  	{opacity: 0}
+    80%   	{opacity: 0.5}
+}
+
+
+.fade_so1 {
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	opacity: 0.5;
+	transition: opacity .25s ease-in-out;
+	position: relative;
+	animation-name: so1;
+	animation-duration: 2s;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+
+.fade_so1:hover {
+    opacity: 1;
+}
+
+
+@keyframes so2 {
+    5%      	{opacity: 0}
+    85%             	{opacity: 0.5}
+}
+
+.fade_so2 {
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	opacity: 0.5;
+	transition: opacity .25s ease-in-out;
+	position: relative;
+	animation-name: so2;
+	animation-duration: 2s;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+
+.fade_so2:hover {
+    opacity: 1;
+}
+
+
+@keyframes so3 {
+    10%    		{opacity: 0}
+    90%             	{opacity: 0.5}
+}
+
+.fade_so3 {
+user-drag: none;
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+opacity: 0.5;
+transition: opacity .25s ease-in-out;
+position: relative;
+animation-name: so3;
+animation-duration: 2s;
+-moz-transition: opacity .25s ease-in-out;
+-webkit-transition: opacity .25s ease-in-out;
+}
+
+.fade_so3:hover {
+      opacity: 1;
+}
+
+
+
+@keyframes so4 {
+        15%             {opacity: 0}
+        95%             {opacity: 0.5}
+}
+
+
+.fade_so4 {
+
+user-drag: none;
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+opacity: 0.5;
+transition: opacity .25s ease-in-out;
+position: relative;
+animation-name: so4;
+animation-duration: 2s;
+-moz-transition: opacity .25s ease-in-out;
+-webkit-transition: opacity .25s ease-in-out;
+}
+
+.fade_so4:hover {
+      opacity: 1;
+}
+
+
+
+@keyframes so5 {
+        20%             {opacity: 0}
+        100%            {opacity: 0.5}
+}
+
+
+.fade_so5 {
+
+user-drag: none;
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+opacity: 0.5;
+transition: opacity .25s ease-in-out;
+position: relative;
+animation-name: so5;
+animation-duration: 2s;
+-moz-transition: opacity .25s ease-in-out;
+-webkit-transition: opacity .25s ease-in-out;
+}
+
+.fade_so5:hover {
+      opacity: 1;
+}
+
+
+
+ @keyframes backbutton {
+    0%    {opacity: 0;}
+    50%   {opacity: 0;}
+    100%  {opacity: 0.75;}
+}
+
+a.back, a.back:link {
+    background-color: white;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline-block;
+    margin: 0 0 50px 10px;
+
+    opacity: 0.75;
+
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+
+    animation-name: backbutton;
+    animation-duration: 2s;
+}
+
+
+a.back:hover {
+    opacity: 1;
+}
+
+
+
+a.profilelink {
+color: white;
+font-size: 18px;
+text-align: center;
+}
+
+a.profilelink:link {
+color: white;
+opacity: 0.6;
+transition: all .25s ease-in-out;
+-moz-transition:  all .25s ease-in-out;
+-webkit-transition:  all .25s ease-in-out;
+}
+
+a.profilelink:hover {
+color: white;
+opacity: 0.9;
+}
+
+#profile_hr {
+margin: 0 375px 0 375px;
+transition: all .4s ease-in-out;
+-moz-transition: all .25s ease-in-out;
+-webkit-transition: all .25s ease-in-out;
+}
+
+#profile:hover > #profile_hr {
+margin: 0 100px 0 100px;
+}
+
+
+@keyframes font_hey {
+	0% 		{opacity: 0;}
+	30%	{opacity: 1;}
+	65%	{opacity: 1;}
+	100%	{opacity: 0;}
+}
+
+#font_hey {
+	position: relative;
+	top: 100px;
+	left: 0px;
+	opacity: 0;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	animation-name: font_hey;
+	animation-duration: 5s;
+}
+
+
+@keyframes zekro_image {
+	0%		{opacity: 0;}
+	40%	{opacity: 0; top: 100px}
+	55%	{opacity: 1; top: 0px; left: 0px;}
+	65%	{left: -350px;}
+}
+
+#zekro_image {
+	animation-name: zekro_image;
+	animation-duration: 10s;
+	position: relative;
+	left: -350px;
+}
+
+.protect {
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+@keyframes font_description {
+	0%		{opacity: 0;}
+	65%	{opacity: 0; top: -100px;}
+	80%	{opacity: 1; top: -200px;}
+}
+
+#font_description {
+	position: relative;
+	top: -200px;
+	left: 250px;
+	opacity: 1;
+	color: white;
+	font-size: 16px;
+	text-align: left;
+	animation-name: font_description;
+	animation-duration: 10s;
+	cursor:default
+}
+
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(77, 77, 77);
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: rgb(255, 102, 0);
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.toollist.title:link {
+    position: relative;
+    top: -35px;
+    left: 17px;
+    color: white;
+    font-size: 28px;
+    padding-left: 5px;
+
+    border-left-style: solid;
+    border-width: 0px;
+
+    transition: all .25s ease;
+    -moz-transition:  all .25s ease;
+    -webkit-transition:  all .25s ease;
+}
+
+.toollist.title:visited {
+    color: white;
+    font-size: 28px;
+}
+
+.toollist.title:hover {
+    font-size: 28px;
+    border-width: 5px;
+    color: aqua;
+}
+
+.toollist.subtitle {
+    position: relative;
+    top: -33px;
+    left: 90px;
+    font-size: 16px;
+    color: dimgray;
+}
+
+.animation-element {
+  opacity: 0;
+  position: relative;
+}
+
+.animation-element.fadein {
+  opacity 0;
+  position: relative;
+  left: -50px;
+  transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.animation-element.fadein.in-view {
+  opacity: 1;
+  left: 0px;
+}
+
+.hr_frame.top {
+
+    display: block;
+    height: 0px;
+    width: 140px;
+    border: 0;
+    border-top: 2px solid lime;
+    margin: 10px 0 10px 0;
+
+    transform-origin: left top;
+    transform: scaleX(0);
+
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+
+.hr_frame.bot {
+
+    display: block;
+    height: 0px;
+    width: 140px;
+    transform-origin: left top;
+    border: 0;
+    border-top: 2px solid lime;
+    margin: 10px 0 10px 0;
+
+    transform-origin: right bottom;
+    transform: scaleX(0);
+
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+
+.hr_frame.left {
+
+    width: 52px;
+    border-top: 2px solid lime;
+    position: relative;
+    left: -43px;
+    top: -12px;
+
+    transform-origin: left top;
+    transform: scaleY(0) rotate(90deg);
+
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+
+.hr_frame.right {
+
+    width: 52px;
+    border-top: 2px solid lime;
+    position: relative;
+    top: 12px;
+    left: 43px;
+
+    transform-origin: right bottom;
+    transform: scaleY(0) rotate(90deg);
+
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+
+.a_link:link, .a_link:visited {
+    color: white;
+    font-size: 16px;
+    border: 1px;
+    padding: 13px 24px 13px 25px;
+    border-style: solid;
+    border-color: rgb(50,50,50);
+
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+
+.a_link:hover {
+    color: rgb(255,255,255);
+    font-size: 16px;
+    border: 0px;
+    opacity: 1;
+}
+
+#myprofile {
+    margin: 0 340px 0 340px;
+}
+
+#myprofile:hover > .hr_frame.top {
+    transform: scaleX(0.7);
+}
+
+#myprofile:hover > .hr_frame.bot {
+    transform: scaleX(0.7);
+}
+
+#myprofile:hover > .hr_frame.left {
+    transform: scaleY(0.7) rotate(90deg);
+}
+
+#myprofile:hover > .hr_frame.right {
+    transform: scaleY(0.7) rotate(90deg);
+}
+
+
+/********** NAVIGATION **********/
+
+.menue_button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    height: 0px;
+    width: 30px;
+    opacity: 0.7;
+    background-color: white;
+    transform-origin: 50% 50%;
+
+    transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+}
+
+.menue_button:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.menue_button.open {
+    transform: rotate(90deg) scale(1);
+    height: 30px;
+    width: 30px;
+
+    animation: blink 2s infinite;
+    -webkit-animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0%          {opacity: 0.8; filter: drop-shadow(0px 0px 0px white); -webkit-filter: drop-shadow(0px 0px 0px white);}
+    50%         {opacity: 1; filter: drop-shadow(0px 0px 5px white); -webkit-filter: drop-shadow(0px 0px 5px white);}
+    100%        {opacity: 0.8; filter: drop-shadow(0px 0px 0px white); -webkit-filter: drop-shadow(0px 0px 0px white);}
+}
+
+
+.entry_home {
+    display: block;
+    position: fixed;
+    left: 0px;
+    opacity: 0;
+    cursor: pointer;
+
+    background: rgba(255,255,255,0.4);
+    height: 24px;
+    width: 0px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+}
+
+.entry_home:hover {
+    width: 110px;
+}
+
+
+.ext_apps {
+    display: none;
+    position: relative;
+    top: -23px;
+    left: 130px;
+    opacity: 0;
+    z-index: 3;
+    padding-left: 10px;
+
+    border-left: solid 2px gray;
+}
+
+@keyframes ext_fade_in {
+    from    {opacity: 0; left: 100px;}
+    to      {opacity: 1; left: 130px;}
+}
+
+.ext_apps.visible {
+    display: block;
+    opacity: 1;
+    z-index: 3;
+
+    -webkit-animation: ext_fade_in .25s;
+    animation: ext_fade_in .25s;
+}
+
+/********** NAVIGATION END **********/
+
+
+
+/********** INFOBOX ************/
+
+@keyframes infobox_fadeIn {
+    from        {opacity: 0;}
+    to          {opacity: 1;}
+}
+
+@keyframes infobox_fadeOut {
+    from        {opacity: 1;}
+    to          {opacity: 0;}
+}
+
+.div_infobox {
+    position: fixed;
+    display: none;
+
+    animation: infobox_fadeOut 1s ease;
+    -webkit-animation: infobox_fadeOut 1s ease;
+
+    z-index: 3;
+}
+
+.div_infobox.visible {
+    display: block;
+
+    animation: infobox_fadeIn 1s ease;
+    -webkit-animation: infobox_fadeIn 1s ease;
+}
+
+.infobox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 400px;
+    background-color: rgb(44,44,44);
+    z-index: 3;
+
+}
+
+.infobox.head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 400px;
+    background-color: rgb(255, 83, 0);
+    z-index: 4;
+
+}
+
+.infobox_cancelbt {
+    position: fixed;
+    top: 3px;
+    left: 330px;
+    color: rgb(44,44,44);
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+
+
+}
+
+.infobox_headtext {
+    position: fixed;
+    top: 3px;
+    left: 6px;
+    color: white;
+    font-size: 16px;
+
+}
+
+.infobox_text {
+    position: fixed;
+    top: 40px;
+    left: 6px;
+    width: 400px;
+    font-size: 14px;
+
+
+}
+
+
+
+/********** INFOBOX END ************/
+
+
+
+/********** TOOL CARD ************/
+
+.tc_background {
+    width: auto;
+    height: 500px;
+    background-color: rgb(34,34,34);
+    font-family: "Roboto", sans-serif;
+}
+
+.tc_head {
+    width: auto;
+    height: 40px;
+    background-color: #ff7800;
+
+    font-size: 24px;
+    font-weight: 100;
+    padding: 5px 0 0 15px;
+
+    z-index: 10;
+}
+
+.tc_menu {
+    width: 150px;
+    height: 456px;
+    background-color: rgb(44,44,44);
+    z-index:
+}
+
+.tc_menupoint {
+    color: white;
+    height: 35px;
+    width: 140px;
+    padding: 5px 0 0 10px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.tc_menupoint.selected {
+    background-color: #00b7e2;
+}
+
+.tc_window {
+    display: none;
+    position: relative;
+    height: auto;
+    width: auto;
+    top: -456px;
+    left: 150px;
+    margin: 20px 180px 0 25px;
+}
+
+.tc_window.selected {
+    display: block;
+}
+
+a.dl_box, a.dl_box:hover {
+    font-size: 14px;
+    color: white;
+    padding: 3px 8px 3px 8px;
+    border: solid 2px rgba(255,255,255,.8);
+    margin: 0 5px 15px 0;
+    cursor: default;
+}
+
+a.dl_box_latest, a.dl_box_latest:hover {
+    font-size: 14px;
+    background-color: rgba(0,255,104,.25);
+    color: white;
+    padding: 3px 8px 3px 8px;
+    border: solid 2px rgba(255,255,255,.8);
+    margin: 0 5px 15px 0;
+    cursor: default;
+}
+
+a.dl_dlbutton {
+    background-color: rgba(210, 0, 0,.5);
+    font-size: 14px;
+    color: white;
+    padding: 3px 8px 3px 8px;
+    margin: 0 5px 15px 0;
+    cursor: pointer;
+    border: solid 2px rgba(255,255,255,.8);
+
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+
+a.dl_dlbutton:hover {
+    background-color: rgba(210, 0, 0,.8);
+}
+
+a.tc_git {
+    width: 300px;
+    height: 100px;
+}
+
+.tc_git_underline {
+    position: relative;
+    top: -10px;
+    width: 0px;
+    height: 5px;
+    background-color: aqua;
+
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+
+a.tc_git:hover + .tc_git_underline {
+    width: 300px;
+}
+
+/********** TOOL CARD END ************/
+
+
+/************* PAGE REWORK 2017 *************/
+
+@keyframes new_logo {
+    0%    {opacity: 0; width: 40%; height: 40%;}
+    50%    {opacity: 0; width: 40%; height: 40%;}
+    100%      {opacity: 0.7; width: 35%; height: 35%;}
+}
+
+.audio_frame {
+    display: block;
+    clip-path: polygon(0 0, 10.5% 0, 10.5% 100%, 0% 100%);
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    opacity: 0.4;
+    cursor: pointer;
+
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+
+.audio_frame_text {
+    display: block;
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    opacity: 0;
+    padding: 3px 9px 3px 9px;
+    font-size: 12px;
+    clip-path: polygon(0 0, 0% 0, 0% 100%, 0% 100%);
+
+    background-color: white;
+    color: black;
+
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+
+.audio_frame:hover {
+    clip-path: polygon(0 0, 89.5% 0, 89.5% 100%, 0% 100%);
+    opacity: 0.8;
+}
+
+.audio_frame:hover + .audio_frame_text {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    opacity: 0.8;
+}
+
+.new_logo {
+    display: block;
+    position: relative;
+
+    opacity: .7;
+
+    width: 35%;
+    height: 35%;
+
+    animation: new_logo 2s ease;
+    -webkit-animation: new_logo 2s ease;
+}
+
+p.heading {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 60px;
+	font-weight: 100;
+	color: white;
+}
+
+#projectpanel {
+	display: inline-block;
+	background-color: rgba(255, 255, 255, .3);
+	width: 400px;
+	height: 200px;
+	top: 0px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+a.projectbutton {
+	display: block;
+	position: absolute;
+	background-color: white;
+	color: black;
+	bottom: 10px;
+	left: 10px;
+
+	padding: 2px 5px 2px 5px;
+
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+}
