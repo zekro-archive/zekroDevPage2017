@@ -1090,13 +1090,23 @@ p.heading {
 
 #projectpanel {
 	display: inline-block;
-	background-color: rgba(255, 255, 255, .3);
+	background-color: rgba(255, 255, 255, .15);
 	width: 400px;
 	height: 200px;
 	top: 0px;
 	position: relative;
 	left: 0px;
 	top: 0px;
+
+	transform: scale(1);
+
+	transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+}
+
+#projectpanel:hover {
+	transform: scale(1.01);
 }
 
 a.projectbutton {
@@ -1105,10 +1115,48 @@ a.projectbutton {
 	background-color: white;
 	color: black;
 	bottom: 10px;
-	left: 10px;
 
-	padding: 2px 5px 2px 5px;
+	padding: 0px 5px 1px 5px;
 
 	font-family: "Montserrat", sans-serif;
 	font-size: 16px;
+
+	opacity: .6;
+
+	transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+}
+
+a.projectbutton:hover {
+	opacity: .9;
+}
+
+img.projectimage {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	opacity: .7;
+}
+
+p.projecttitle {
+	display: block;
+	position: absolute;
+	top: 25px;
+	left: 150px;
+
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+}
+
+p.projectdescr {
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 150px;
+
+	padding-right: 30px;
+	text-align: justify;
+	font-size: 14px;
 }
