@@ -1024,6 +1024,14 @@ a.tc_git:hover + .tc_git_underline {
     100%      {opacity: 0.7; width: 35%; height: 35%;}
 }
 
+@keyframes disclaimer {
+	0%	 {opacity: 0; top: -30px;}
+	20%	 {opacity: 0; top: -30px;}
+	30%  {opacity: 1; top: 50px;}
+	90%  {opacity: 1; top: 50px;}
+	100% {opacity: 0; top: -30px;}
+}
+
 .audio_frame {
     display: block;
     clip-path: polygon(0 0, 10.5% 0, 10.5% 100%, 0% 100%);
@@ -1109,6 +1117,23 @@ p.heading {
 	transform: scale(1.01);
 }
 
+#disclaimer {
+	display: block;
+	position: relative;
+	background-color: #212121;
+	color: white;
+	width: 300px;
+	/*height: 120px;*/
+	top: -30px;
+	opacity: 0;
+
+	border-radius: 5px;
+
+	animation: disclaimer 15s ease;
+	-webkit-animation: disclaimer 15s ease;
+
+}
+
 a.projectbutton {
 	display: block;
 	position: absolute;
@@ -1159,4 +1184,13 @@ p.projectdescr {
 	padding-right: 30px;
 	text-align: justify;
 	font-size: 14px;
+}
+
+div.language-bar {
+	display: block;
+  position: relative;
+  left: 240px;
+  height: 3px;
+  margin-top: 8px;
+	top: -20px;
 }
