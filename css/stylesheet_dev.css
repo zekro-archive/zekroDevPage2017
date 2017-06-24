@@ -1032,6 +1032,26 @@ a.tc_git:hover + .tc_git_underline {
 	100% {opacity: 0; top: -30px;}
 }
 
+.backgrounddm {
+	z-index: 0;
+	display: block;
+	position: fixed;
+	background-color: black;
+	width: 100%; height: 100%;
+	top: 0px;
+	left: 0px;
+	opacity: .8;
+
+	transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+}
+
+.backgrounddm.dimming {
+	opacity: 1;
+	background-color: #161616;
+}
+
 .audio_frame {
     display: block;
     clip-path: polygon(0 0, 10.5% 0, 10.5% 100%, 0% 100%);
